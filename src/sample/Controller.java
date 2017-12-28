@@ -25,6 +25,7 @@ public class Controller {
         Parent accountView = FXMLLoader.load(getClass().getResource("Account.fxml"));
         Scene accountScene = new Scene(accountView);
         //this line get stage information
+        //sample
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(accountScene);
         window.show();
